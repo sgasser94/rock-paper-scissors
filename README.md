@@ -1,4 +1,3 @@
-# rock-paper-scissors
 I have uploaded my working rock-paper-scissors game. The UI is very barebones but the game:
   1. Lets user know the score
   2. Lets user know what their pick was
