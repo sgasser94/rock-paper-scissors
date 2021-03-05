@@ -5,4 +5,5 @@ I have uploaded my working rock-paper-scissors game. The UI is very barebones bu
   4. Lets user know what round it is
   5. Ends when either the user or the computer reaches 5 round wins
   6. Disables the buttons when the game is over
-  
+
+I want to style this using flexbox or grid. I am currently experimenting with flexbox and seeing what I can do with it.
