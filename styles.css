@@ -5,7 +5,51 @@ body {
   display: grid;
   height: 800px;
 }
-
 .item {
   place-self: center;
+}
+
+/* buttons styling */
+.button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  background-color: darkgrey;
+  border: none;
+  cursor: pointer;
+  color: lightgrey;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.button:hover {
+  color: gold;
+  background-color: #616161;
+}
+.button:focus {
+  outline: none;
+  border: none;
+}
+.button:disabled {
+  display: none;
+}
+
+/* scores styling */
+.scores {
+  display: flex;
+}
+.score {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.computer-scoreboard {
+  margin-left: 50px;
+}
+.score-num {
+  color: gold;
+}
+
+/* reload-prompt styling */
+.reload-prompt {
+  position: absolute;
+  left: 33%;
 }
