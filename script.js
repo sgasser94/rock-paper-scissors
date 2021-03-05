@@ -10,7 +10,7 @@ let roundCounter = document.querySelector('#roundNumber');
 let playerScore = 0;
 let computerScore = 0;
 
-const reloadPrompt = document.querySelector('#reload-prompt');
+const reloadPrompt = document.querySelector('.reload-prompt');
 
 function computerPlay() {
   let randomValue = Math.floor(Math.random() * 3) + 1;
@@ -28,7 +28,7 @@ let counter = 0;
 function playRound(playerSelection) {
   let playerPick = playerSelection.toLowerCase();
   let computerPick = computerPlay();
-    
+
   if ((playerPick === 'rock' && computerPick === 'scissors') ||
       (playerPick === 'paper' && computerPick === 'rock') ||
       (playerPick === 'scissors' && computerPick === 'paper')) {
@@ -37,7 +37,7 @@ function playRound(playerSelection) {
         roundSummary.textContent = `Round ${counter} winner: You! Your choice of
             ${playerPick} beat the computer's choice of ${computerPick}.`;
   } else if (playerPick === computerPick) {
-        roundSummary.textContent = `Round ${counter + 1} is a draw, both you and 
+        roundSummary.textContent = `Round ${counter + 1} is a draw, both you and
             the computer picked ${playerPick}, it is still round ${counter + 1}.`;
   } else {
           counter++;
