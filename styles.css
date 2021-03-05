@@ -2,4 +2,13 @@ body {
   background-color: #525471;
   color: lightgrey;
   font-family: 'Press Start 2P', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+  height: 800px;
+}
+
+.item {
+  border: 1px solid red;
 }
